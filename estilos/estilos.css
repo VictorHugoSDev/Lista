@@ -9,6 +9,34 @@ body{
     font-family: arial;
 }
 
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;;
+    background-color: #080F72;
+}
+
+.menu li{
+    padding: 25px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+header img{
+    width: 100%;
+    height: 250px;
+}
+
 main section{
     width: 1200px;
     margin: auto;
@@ -40,7 +68,7 @@ main section p{
 
 main section button{
     color: white;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
@@ -96,12 +124,16 @@ main section h2{
 
 .imgCompromisso img{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 35px;
     height: 400px;
 }
 
 footer p {
     color: white;
     text-align: center;
-    padding: 40px;
+    padding: 30px;
+}
+
+.compromisso h2{
+    text-align: left;
 }
